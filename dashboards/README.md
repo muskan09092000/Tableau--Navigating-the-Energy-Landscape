@@ -1,48 +1,52 @@
 # Tableau Dashboards
 
-This directory contains the main Tableau workbooks and their exported versions:
+This directory contains our Tableau workbooks and related files that analyze the U.S. energy landscape from 1990-2022.
 
-## Main Workbook
-- `VA_final_workbook.twbx`: The complete Tableau packaged workbook containing all visualizations and data connections
-  - Interactive dashboards for energy consumption analysis
-  - Renewable energy adoption visualizations
-  - Environmental impact assessments
-  - Cross-reference capabilities and drill-down features
+## Main Workbook Structure
 
-## Static Exports
-- `VA_final_workbook.pdf`: PDF export of all dashboards for easy sharing and viewing without Tableau Reader
-  - Complete set of visualizations
-  - Annotations and insights
-  - Data source references
+### 1. Energy Production Analysis
+- Trend analysis of energy production by source (1990-2022)
+- State-level production patterns
+- Top 10 energy-producing states analysis
+- Natural gas emergence and coal decline visualization
 
-## Dashboard Structure
-1. **Overview Dashboard**
-   - Key metrics and highlights
-   - Navigation to detailed views
-   - Executive summary visualizations
+### 2. Consumption Patterns
+- State-wise energy consumption trends
+- Industrial vs residential consumption analysis
+- Per capita energy usage patterns
+- Top 10 energy-consuming states breakdown
 
-2. **Energy Consumption Analysis**
-   - State-level consumption patterns
-   - Temporal trends
-   - Sector-specific breakdowns
+### 3. Renewable Energy Focus
+- Renewable energy adoption trends
+- State rankings in renewable consumption
+- Growth patterns in wind, solar, and hydroelectric
+- Regional leadership in renewable energy
 
-3. **Renewable Energy Insights**
-   - Adoption rates by state
-   - Energy mix analysis
-   - Growth trend visualizations
+### 4. Environmental Impact
+- CO2 emissions trends by energy source
+- Production-emissions correlation analysis
+- State-level environmental impact assessment
+- Renewable energy impact on emissions
 
-4. **Environmental Impact**
-   - Emissions analysis
-   - Correlation studies
-   - Impact assessments
+## Interactive Features
+- Cross-filtering capabilities across all dashboards
+- Drill-down functionality for state-level analysis
+- Time-series animations for trend visualization
+- Custom tooltips with detailed information
 
-## How to Use
-1. For interactive analysis:
-   - Open `VA_final_workbook.twbx` in Tableau Desktop or Tableau Reader
-   - Use filters and parameters to explore the data
-   - Leverage drill-down capabilities for detailed insights
+## Data Connections
+The workbook connects to the following datasets:
+- State_production_data.xlsx
+- Consumption_Data.xlsx
+- Emissions_Data.xlsx
 
-2. For static viewing:
-   - Open `VA_final_workbook.pdf` in any PDF reader
-   - Navigate through the dashboard sections
-   - Reference the annotations and insights 
+## Usage Notes
+1. Open the workbook using Tableau Desktop or Tableau Reader
+2. Use the navigation panel to move between different analyses
+3. Leverage interactive filters for detailed exploration
+4. Export visualizations as needed for presentations
+
+## Export Formats
+- `.twbx`: Packaged workbook with data
+- `.pdf`: Static version of all dashboards
+- `.png`: Individual visualization exports 
